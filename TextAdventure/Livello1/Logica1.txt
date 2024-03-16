@@ -1,0 +1,10 @@
+L'esecuzione di questo programma inizia con la scelta della difficoltà che l'utente stesso ritroverà per tutti e 3 i livelli del gioco.
+Il livello 1 affronta "L'ereditarietà",il livello due affronta "L'incapsulamento" e il livello tre "il Polimorfismo".
+Le difficoltà tra cui scegliere sono:
+-Facile
+-Medio
+-Difficile
+L'utente potrà scegliere la difficoltà del gioco mediante risposta testuale(Stringa) e se scriverà una parola diversa tra le opzioni offerte(Facile,Medio o Difficile) entrerà automaticamente nella difficoltà "Impossibile" che consiste come difficoltà in quella "Difficile" più una domanda bonus.
+Una volta scelta la difficoltà quindi verranno presentate delle domande a risposta chiusa collegate alla difficoltà scelta dall'utente e verrà registrata la sua risposta.
+Il programma confronterà le risposte dell'utente con le risposte giuste e verrà mostrato il risultato ottenuto.
+L'utente poi potrà decidere se procedere con il secondo livello o uscire dal programma.

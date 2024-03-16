@@ -1,0 +1,10 @@
+L'esecuzione di questo programma inizia con il chiedere all'utente se vuole giocare a Java Text Adventure. Ha 2 opzioni : giocare o uscire.
+Dopodichè inizia il gioco in cui si chiede all'utente il grado di difficoltà(che comprende facile, medio, difficile).
+Il livello 1 affronta "L'ereditarietà",il livello due affronta "L'incapsulamento" e il livello tre "il Polimorfismo".
+Le difficoltà tra cui scegliere sono:
+-facile;
+-medio;
+-difficile.
+Se l'utente digita una parola all'infuori delle 3 opzioni proposte(facile, medio, difficile), andrà automaticamente alla difficoltà difficile e gli si chiederà una domanda bonus casuale.
+Se l'utente risponderà correttamente a tutte le domande, uscirà un'immagine di Goku.
+Dopodichè, si passerà al secondo livello.

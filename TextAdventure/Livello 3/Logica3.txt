@@ -1,0 +1,20 @@
+la modalità facile ha 4 domande  con un vero e falso dove si risponde con una stringa "vero"/"falso", mentre l'ultima domanda è a risposta multipla e si risponde con un numero(int) corrispondente alla risposta scelta 
+la modalità difficile e quella intermedia hanno 4 domande con un vero e falso dove si risponde con una stringa "si"/"no", mentre l'ultima domanda è a risposta multipla con un numero(stringa) corrispondente alla risposta scelta
+
+queste sono le soluzione della modalità facile:
+-Il polimorfismo è una delle tre 
+      caratteristiche fondamentali dell’OOP
+     [si]
+-Il polimorfismo è anche una religione 
+      indonesiana
+     [no]
+-il polimorfismo è la capacità di ereditare
+      attributi e metodi
+      [no]
+-Il polimorfismo è presente solo in java?
+      [no]
+-Quale delle seguenti non è un vantaggio del polimorfismo?
+a) Maggiore flessibilità nel design del software
+b) Codice più generico e riutilizzabile // risposta giusto
+c)Maggiore complessità nel codice
+d)Maggiore modularità nel design del software

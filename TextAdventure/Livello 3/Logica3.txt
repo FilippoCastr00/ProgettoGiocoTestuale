@@ -1,0 +1,2 @@
+la modalità facile ha 4 domande  con un vero e falso dove si risponde con una stringa "vero"/"falso", mentre l'ultima domanda è a risposta multipla e si risponde con un numero(int) corrispondente alla risposta scelta 
+la modalità difficile e quella intermedia hanno 4 domande con un vero e falso dove si risponde con una stringa "si"/"no", mentre l'ultima domanda è a risposta multipla con un numero(stringa) corrispondente alla risposta scelta

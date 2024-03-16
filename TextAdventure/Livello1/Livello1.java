@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Livello1 {
-    public static void main(String[] args) {
+    public void Livello1() {
         Scanner sc = new Scanner(System.in);
         ArrayList<String> domandeFacili = new ArrayList<>();
         ArrayList<String> domandeMedie = new ArrayList<>();
@@ -42,7 +42,7 @@ public class Livello1 {
                 System.out.println("A)extends \n B)implements \n C)inherit \n D)derive");
                 String sceltaRisposta1 = sc.nextLine();
 
-                //DOMANDA 1
+                // DOMANDA 1
                 switch (sceltaRisposta1) {
                     case "A":
                         System.out.println("Risposta corretta!");
@@ -70,7 +70,7 @@ public class Livello1 {
                         break;
                 }
 
-                //DOMANDA 2 
+                // DOMANDA 2
                 System.out.println("Quale dei seguenti concetti descrive meglio l'ereditarietà?");
                 System.out.println(
                         "A)il processo di nascondere i dettagli di implementazione \n B)La creazione di interfacce utente grafice \n C)La possibilità di creare una nuova classe basata su una classe esistente \n D)L'esecuzione di codice in parallelo");
@@ -106,7 +106,7 @@ public class Livello1 {
                         break;
                 }
 
-                //DOMANDA 3
+                // DOMANDA 3
                 System.out.println(
                         "Qual è il termine utilizzato per indicare la classe da cui un'altra classe eredita in Java?");
                 System.out.println("A)Classe figlia \n B)Superclasse \n C)Sottoclasse \n D)Interfaccia");

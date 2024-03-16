@@ -49,7 +49,8 @@ public class LivelloDue {
 
     // metodo scelta difficoltà() che serve a far sceglieri la difficoltà ,
     // stampando le domande in base ad'essa.
-    // consente anche le risposte dell'utente e calcola il suo punteggio con una possibile sorpresa alla fine ; )
+    // consente anche le risposte dell'utente e calcola il suo punteggio con una
+    // possibile sorpresa alla fine ; )
     public void sceltaDifficoltà() {
         // array contenenti le risposte
         String[] risposteFacili = { "si", "si", "no", "no", "no" };
@@ -61,7 +62,7 @@ public class LivelloDue {
         String[] y = {};
         String[] z = {};
 
-        //scelta difficoltà
+        // scelta difficoltà
         System.out.println("scegli una difficoltà: FACILE, MEDIA, DIFFICILE");
         String difficoltà = sc.nextLine();
 
@@ -98,12 +99,12 @@ public class LivelloDue {
                         contatore++;
                     }
                 }
-                //stampiamo il punteggio
+                // stampiamo il punteggio
                 System.out.println("il tuo punteggio è di: " + contatore);
-                //domanda segreta super cattiva
+                // domanda segreta super cattiva
                 if (contatore == 5) {
                     System.out.println("domanda segreta");
-                    System.out.println("PANICO?");
+                    System.out.println("quante volte ha parlato con il cane mirko?");
                     String rispostaSegreta = sc.nextLine();
                 }
 
@@ -127,7 +128,7 @@ public class LivelloDue {
                 System.out.println("il tuo punteggio è di: " + contatore);
                 if (contatore == 5) {
                     System.out.println("domanda segreta");
-                    System.out.println("PANICO?");
+                    System.out.println("mirko ha laggato settimana scorsa?");
                     String rispostaSegreta = sc.nextLine();
                 }
                 break;
@@ -155,6 +156,7 @@ public class LivelloDue {
                 }
                 break;
             default:
+                System.out.println("ops");
                 break;
         }
 

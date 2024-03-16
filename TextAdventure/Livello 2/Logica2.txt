@@ -1,0 +1,4 @@
+il gioco si basa su un quiz riguardo all'incapsulamento a risposte chiuse , quindi SI/NO
+l'utente può scegliere la difficolta : facile, media , difficile.
+se l'utente indovina le risposte il suo punteggio aumenta , se no rimane invariato.
+nel caso in cui l'utente dia 5 risposte esatte su 5 , ci sarà una piccola sorpresina alla fine .

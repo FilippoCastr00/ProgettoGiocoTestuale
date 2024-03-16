@@ -54,7 +54,11 @@ public class LivelloDue {
                 String[] domandeScelte = setDomande.get(0);
                 for (String strings : domandeScelte) {
                     System.out.println(strings);
-                    String risposta = sc.nextLine();
+
+
+                    
+             // !!!!!!!!!!!!      String[] risposte1 = new String[sc.];
+
                 }
                 break;
             case "media":
@@ -80,8 +84,12 @@ public class LivelloDue {
         }
 
     }
-    //metodo per controllare il punteggio
-public void punteggio(){
-    
-}
+
+    // metodo per controllare il punteggio
+    public void punteggio() {
+        // creazione degli array con le risposte alle domande
+        String[] risposteFacili = { "si", "si", "no", "no", "no" };
+        String[] risposteMedie = { "si", "no", "si", "no", "si" };
+        String[] risposteDiffici = { "no", "no", "si", "", "" };
+    }
 }

@@ -15,6 +15,8 @@ public class LevelThree {
 
   public String modIntermedio() {
     String x = "";
+    intermedio.add(
+        "VERO o FALSO:\n Il polimorfismo consente di avere funzioni con lo stesso nome ma con diversi insiemi di parametri?");
     return x;
   }
 

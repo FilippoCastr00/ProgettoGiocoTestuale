@@ -3,40 +3,29 @@ package TextAdventure.Livello1;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+
 public class Livello1 {
+    
     public void LivelloUno() {
         Scanner sc = new Scanner(System.in);
-        // ArrayList<String> domandeFacili = new ArrayList<>();
-        //ArrayList<String> domandeMedie = new ArrayList<>();
-        //ArrayList<String> domandeDifficili = new ArrayList<>();
+        
+        //creo ArrayList per le domande segrete e lo riempio
         ArrayList<String> domandeBonus = new ArrayList<>();
+        domandeBonus.add("In Java, quando una classe eredita da un'altra, deve pagare qualcosa?");
+        domandeBonus.add("Qual è il concetto di ereditarietà nelle classi Java e illustra come viene implementata utilizzando l'ereditarietà di classe e l'ereditarietà di interfaccia?");
+        domandeBonus.add("Qual è il vantaggio dell'ereditarietà nella progettazione orientata agli oggetti in Java?");
 
+        //CONTATORI 
         int risposteCorrette = 0;
         int risposteSbagliate = 0;
 
-        // domandeFacili.add("In Java, quale parola chiave viene utilizzata per ereditare da una classe?");
-        // domandeFacili.add("Quale dei seguenti concetti descrive meglio l'ereditarietà?");
-        // domandeFacili.add("Qual è il termine utilizzato per indicare la classe da cui un'altra classe eredita in Java?");
-        // domandeFacili.add("In Java, una classe può avere genitori?");
-        // domandeFacili.add("In Java, una classe genitore può avere quanti figli?");
-
-        // domandeMedie.add("come va");
-        // domandeMedie.add("come va");
-        // domandeMedie.add("come va");
-        // domandeMedie.add("come va");
-        // domandeMedie.add("come va");
-
-        // domandeDifficili.add("tutto bene");
-        // domandeDifficili.add("tutto bene");
-        // domandeDifficili.add("tutto bene");
-        // domandeDifficili.add("tutto bene");
-        // domandeDifficili.add("tutto bene");
-
+        //Menu iniziale
         System.out.println("JAVA TEXT ADVENTURE");
         System.out.println("Benvenuto giovane developer");
         System.out.println("quale difficoltà vuoi scegliere?: \nfacile\nmedia\ndifficile ");
         String risposta = sc.nextLine();
 
+        
         for (int i = 1; i > 0;) {
             if (risposta.equalsIgnoreCase("facile")) {
                 System.out.println("In Java, quale parola chiave viene utilizzata per ereditare da una classe?");
@@ -142,9 +131,8 @@ public class Livello1 {
                         break;
                 }
                 // quarta domanda
-                System.out.println("\"In Java, una classe può avere genitori?\"");
-                System.out.println(
-                        "A)Si, può avere molti genitori diretti \n B)No, le classi non sono come le persone \n C)Si, ma solo un genitore diretto \n D)No, le classi non possono avere nè genitori nè figli");
+                System.out.println("In Java, una classe può avere genitori?");
+                System.out.println("A)Si, può avere molti genitori diretti \n B)No, le classi non sono come le persone \n C)Si, ma solo un genitore diretto \n D)No, le classi non possono avere nè genitori nè figli");
                 String sceltaRipostaFacile4 = sc.nextLine();
                 switch (sceltaRipostaFacile4) {
                     case "A":
@@ -207,8 +195,7 @@ public class Livello1 {
             //difficoltà media prima domanda
             if (risposta.equalsIgnoreCase("media")) {
                 System.out.println("1)Quale delle seguenti affermazioni è vera riguardo l'ereditarietà in Java?");
-                System.out.println(
-                        "A) Una classe può ereditare da più classi utilizzando la parola chiave extends. \n B) Java supporta l'ereditarietà multipla tramite classi. \n C) Una classe può implementare più interfacce. \n D) Una classe può estendere più di una classe alla volta.");
+                System.out.println("A) Una classe può ereditare da più classi utilizzando la parola chiave extends. \n B) Java supporta l'ereditarietà multipla tramite classi. \n C) Una classe può implementare più interfacce. \n D) Una classe può estendere più di una classe alla volta.");
                 String sceltaRispostaMedia1 = sc.nextLine();
                 switch (sceltaRispostaMedia1) {
                     case "A":

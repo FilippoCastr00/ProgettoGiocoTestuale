@@ -1,8 +1,8 @@
-import java.util.*;
-
 public class Hub {
     public static void main(String[] args) {
+        // creazione dell'oggetto LivelloDue nel hub
         LivelloDue livelloDue = new LivelloDue();
-        livelloDue.domande();
+        // implementazione del metodo che fa partire il gioco
+        livelloDue.quiz();
     }
 }

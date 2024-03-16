@@ -107,8 +107,4 @@ public class LevelThree {
     return x;
   }
 
-  public static void main(String[] args) {
-    LevelThree ciao = new LevelThree();
-    ciao.modFacile();
-  }
 }
